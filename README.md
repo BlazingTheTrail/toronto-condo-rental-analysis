@@ -1,5 +1,10 @@
 # Toronto Condo Rental Market Web Scraping & Analysis
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-Web%20Scraping-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## Overview
 
 This project collects Toronto condo rental listing data from Condos.ca and analyzes rental price patterns across areas, property characteristics, furnishing status, parking availability, bathrooms, and unit size.
@@ -15,14 +20,41 @@ The goal is to turn raw web listing data into a clean analytical dataset and pro
 
 ## Tech Stack
 
-- Python
-- pandas
-- requests
-- BeautifulSoup
-- matplotlib
-- seaborn
-- Jupyter Notebook
+* Python
+* Pandas
+* Requests
+* BeautifulSoup
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
+## Project Workflow
+
+```text
+Web Scraping
+    ↓
+Data Cleaning
+    ↓
+Feature Engineering
+    ↓
+Exploratory Data Analysis
+    ↓
+Visualization & Business Insights
+
+## Key Insights
+
+* Downtown Toronto had the highest concentration of condo rental listings.
+* Furnished units generally showed higher average rents.
+* Parking availability had a measurable impact on rental prices.
+* Larger condo units displayed decreasing rent-per-square-foot trends.
+* Rental pricing patterns varied significantly across neighbourhoods.
+
+## Future Improvements
+
+* Build machine learning models to predict rental prices.
+* Add geospatial analysis using postal codes and mapping APIs.
+* Automate data collection pipelines.
+* Deploy interactive dashboards using Streamlit or Tableau.
 ## Project Structure
 
 ```text
