@@ -1,0 +1,5 @@
+# Treat the executed Notebook as project documentation in GitHub statistics.
+notebooks/*.ipynb linguist-documentation
+
+# Charts are generated analytical outputs rather than source code.
+outputs/charts/*.png linguist-generated=true

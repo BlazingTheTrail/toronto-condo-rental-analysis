@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Locally generated data
+data/raw/
+data/processed/
+
+# Generated analysis tables
+outputs/tables/
+
+# Editor settings
+.vscode/
